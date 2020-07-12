@@ -18,6 +18,21 @@
 ## 各类子序列问题
 [子序列问题](https://www.acwing.com/blog/content/823/)
 
+子序列问题，而如果么有要求连续，那么优先考虑sort。[1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
+
+## 对于二维矩阵求一个字矩阵的性质的题目，可以转化为一维的问题。
+(Count Submatrices With All Ones)[https://leetcode.com/problems/count-submatrices-with-all-ones/]
+使用了二维转一维的思想，每列算一个像右像左的值，然后使用1维度求解。
+
+## 树状数组 + 离散化解决一下动态算小于等于某个值的数量的问题，或者某些区间问题
+(Count of Smaller Numbers After Self)[https://leetcode.com/problems/count-of-smaller-numbers-after-self/]
+
+## 环状的问题
+1. 在后面接上一个相同的数组来接解决边界问题。并且限制长度。
+2. 枚举结尾的点
+
+## Divisible问题转化为余数问题
+(Check If Array Pairs Are Divisible by k)[https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/]
 # 文章
 
 [动态规划—各种 DP 优化](https://www.acwing.com/blog/content/630/)
