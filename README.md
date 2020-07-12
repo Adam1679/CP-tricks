@@ -24,6 +24,8 @@
 (Count Submatrices With All Ones)[https://leetcode.com/problems/count-submatrices-with-all-ones/]
 使用了二维转一维的思想，每列算一个像右像左的值，然后使用1维度求解。
 
+(363. Max Sum of Rectangle No Larger Than K) 使用前缀和来降低维度
+
 ## 树状数组 + 离散化解决一下动态算小于等于某个值的数量的问题，或者某些区间问题
 (Count of Smaller Numbers After Self)[https://leetcode.com/problems/count-of-smaller-numbers-after-self/]
 
