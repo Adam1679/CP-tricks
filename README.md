@@ -12,7 +12,7 @@
 2. Google Kickstart. [看狗](https://www.acwing.com/problem/content/836/)
 枚举最后一次的操作，然后使用前缀和后缀来获得除了这个选择之外的最小值
 
-## 动态规划结合状态压缩，状态必须存在拓扑序列，不能环形以来. 
+## 动态规划结合状态压缩，状态必须存在拓扑序列，不能环形依赖. 
 [拯救大兵瑞恩](https://www.acwing.com/solution/content/14096/)
 
 ## 各类子序列问题
