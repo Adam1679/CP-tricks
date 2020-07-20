@@ -33,6 +33,7 @@
 1. 在后面接上一个相同的数组来接解决边界问题。并且限制长度。
 2. 枚举结尾的点
 
+## 模板，区间合并和最多不相交的区间
 ## Divisible问题转化为余数问题
 (Check If Array Pairs Are Divisible by k)[https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/]
 # 文章
