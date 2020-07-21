@@ -39,9 +39,21 @@
 1520. Maximum Number of Non-Overlapping Substrings
 ## Divisible问题转化为余数问题
 (Check If Array Pairs Are Divisible by k)[https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/]
+
+## 动态规划
+[背包九讲](https://www.acwing.com/blog/content/852/)
+- 01背包
+- 完全背包
+- 多重背包
+- 混合背包 -> 各司其职
+- 有依赖的背包->多重背包
+- 二维费用背包
+- 组内互斥背包->多重背包
+
 # 文章
 
 [动态规划—各种 DP 优化](https://www.acwing.com/blog/content/630/)
 
 [排序算法详细总结](https://www.acwing.com/blog/content/541/)
+
 
