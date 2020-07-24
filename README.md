@@ -2,7 +2,11 @@
 刷题心得
 
 # 刷题技巧总结
+## 单调栈
+- 注意在向前的单调栈合向后的单调栈，分开使用<=和<来避免计算的重复
+(leetcode ) https://leetcode.com/problems/sum-of-subarray-minimums/submissions/
 
+- 单调增的单调栈: 不允许重复值，while(!q.empty() && a[i] > a[q.top()] ) q.pop(); 或者 允许重复值，while(!q.empty() && a[i] >= a[q.top()] ) q.pop();
 ## 前缀和和后缀来解决一些有“除了某个点之外的所有”的性质的问题
 
 1. [LeetCode 238. Product of Array Except Self.](https://www.acwing.com/solution/content/288/)
