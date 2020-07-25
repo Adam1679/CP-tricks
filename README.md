@@ -54,6 +54,39 @@
 - 二维费用背包
 - 组内互斥背包->多重背包
 
+
+# Data Strucutre Question
+1. Binary Tree Traversal
+[二叉树非递归遍历，Morris遍历，层次遍历，DFS遍历模板大全](https://www.acwing.com/blog/content/414/)
+
+2. LRU
+双向链表 + Hash
+
+3.堆
+```
+// 递归的下沉一个数，使用完全二叉树来存储。
+void down(int u)
+{
+    int t = u;
+    if(u*2 <= size && h[u*2] < h[t]) t = u*2;
+    if(u*2 + 1 <= size && h[u*2 + 1] < h[t]) t = u*2 + 1;
+    if(u != t)
+    {
+        swap(h[u],h[t]);
+        down(t);
+    }
+}
+// 上移动
+void up(int u)
+{
+    while(u/2 && h[u/2] > h[u])
+    {
+        swap(h[u/2],h[u]);
+        u /= 2;
+    }
+}
+```
+
 # 文章
 
 [动态规划—各种 DP 优化](https://www.acwing.com/blog/content/630/)
