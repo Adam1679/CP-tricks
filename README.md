@@ -38,9 +38,13 @@
 2. 枚举结尾的点
 
 ## 模板，区间合并和最多不相交的区间
-253. Meeting Rooms II
+253. Meeting Rooms II 或者[区间分组](https://www.acwing.com/solution/content/5898/) : 排序，从前往后枚举每个区间，判断能否将其放到某个现有的组中，即是否存在当前区间的的左端点L > 任意组中右端点的最小值的组。可用堆来优化。
 
 1520. Maximum Number of Non-Overlapping Substrings
+
+[区间选点](https://www.acwing.com/solution/content/5887/): 选点从而覆盖所有区间。排序，贪心选右边区间。
+
+[最大不相交区间](https://www.acwing.com/solution/content/4276/): 排序，然后贪心的判断当前的左端点和当前区间的最小的右端点。
 ## Divisible问题转化为余数问题
 (Check If Array Pairs Are Divisible by k)[https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/]
 
