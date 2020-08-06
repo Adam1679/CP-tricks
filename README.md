@@ -24,6 +24,8 @@
 
 子序列问题，而如果么有要求连续，那么优先考虑sort。[1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
 
+[公共子序列]
+
 ## 对于二维矩阵求一个字矩阵的性质的题目，可以转化为一维的问题。
 (Count Submatrices With All Ones)[https://leetcode.com/problems/count-submatrices-with-all-ones/]
 使用了二维转一维的思想，每列算一个像右像左的值，然后使用1维度求解。
@@ -60,6 +62,14 @@
 - 二维费用背包
 - 组内互斥背包->多重背包
 
+## 贪心
+区间问题大多贪心。
+
+(哈夫曼树)[https://www.acwing.com/solution/content/2876/]：优先队列+贪心
+
+## dfs
+[组合数1，2，3](https://leetcode.com/problems/combination-sum-ii/discuss/16878/Combination-Sum-I-II-and-III-Java-solution-(see-the-similarities-yourself))
+dfs如果有重复数字并且要求unique conbinations，那么需要while loop 去排除重复。
 
 # Data Strucutre Question
 1. Binary Tree Traversal
