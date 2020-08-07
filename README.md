@@ -4,6 +4,10 @@
 # 刷题技巧总结
 ## array
 [shortest word distance](https://leetcode.com/problems/shortest-word-distance/description/): 判断两个东西的距离，使用rolling的形式来判断。
+
+[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/76607/C%2B%2B-O(nlogn)-Time-O(n)-Space-MergeSort-Solution-with-Detail-Explanation): merge sort通常用来处理这种计算逆序的题目。
+
+[Find Peak Element](https://leetcode.com/problems/find-peak-element/): 使用二分。正确性比较难证明。
 ## 单调栈
 - 注意在向前的单调栈合向后的单调栈，分开使用<=和<来避免计算的重复
 (leetcode ) https://leetcode.com/problems/sum-of-subarray-minimums/submissions/
