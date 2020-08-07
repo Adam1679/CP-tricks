@@ -2,6 +2,8 @@
 刷题心得
 
 # 刷题技巧总结
+## array
+[shortest word distance](https://leetcode.com/problems/shortest-word-distance/description/): 判断两个东西的距离，使用rolling的形式来判断。
 ## 单调栈
 - 注意在向前的单调栈合向后的单调栈，分开使用<=和<来避免计算的重复
 (leetcode ) https://leetcode.com/problems/sum-of-subarray-minimums/submissions/
