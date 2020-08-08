@@ -25,6 +25,10 @@
 ## 动态规划结合状态压缩，状态必须存在拓扑序列，不能环形依赖. 
 [拯救大兵瑞恩](https://www.acwing.com/solution/content/14096/)
 
+[1542. Find Longest Awesome Substring](https://leetcode.com/problems/find-longest-awesome-substring/): 使用状态压缩来记录奇偶状态，从而达到判断某个子序列的状态是否是奇数/偶然。然后使用dp。[最长偶数原因的字串问题，类似](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/).
+
+
+
 ## 各类子序列问题
 [子序列问题](https://www.acwing.com/blog/content/823/)
 
