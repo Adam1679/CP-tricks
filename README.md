@@ -14,10 +14,11 @@
 
 - 单调增的单调栈: 不允许重复值，while(!q.empty() && a[i] > a[q.top()] ) q.pop(); 或者 允许重复值，while(!q.empty() && a[i] >= a[q.top()] ) q.pop();
 ## 前缀和和后缀来解决一些有“除了某个点之外的所有”的性质的问题
-
 1. [LeetCode 238. Product of Array Except Self.](https://www.acwing.com/solution/content/288/)
 
 使用前缀积和后缀积。
+Path Sum III: 使用前缀和把路径的和转化为two sum的问题。
+
 
 2. Google Kickstart. [看狗](https://www.acwing.com/problem/content/836/)
 枚举最后一次的操作，然后使用前缀和后缀来获得除了这个选择之外的最小值
