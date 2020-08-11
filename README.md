@@ -7,7 +7,7 @@
 
 [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/76607/C%2B%2B-O(nlogn)-Time-O(n)-Space-MergeSort-Solution-with-Detail-Explanation): merge sort通常用来处理这种计算逆序的题目。
 
-[first miss number], [Find All Duplicates in an Array]: 都可以使用一些swap来解决。
+[first miss number], [Find All Duplicates in an Array]: 都可以使用一些swap来解决。对于所有都是正数的arry，加负数来代表是否存在。
 
 
 [Find Peak Element](https://leetcode.com/problems/find-peak-element/): 使用二分。正确性比较难证明。
