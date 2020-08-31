@@ -8,6 +8,11 @@ find_last_not_of, find_last_of可以用来找string中的单词
 rotation string: s1, s2是否为rotation match，先判断长度，再判断是否s2是否为s1+s1的子串
 
 (angram)[https://leetcode.com/problems/group-anagrams/description/]: 想办法对频率进行hash，26个字母生成一个字符串。
+## Matrix 问题
+针对某些造个东西离其他某些地方最近的问题。
+
+(Best Meet Point)[https://leetcode.com/problems/best-meeting-point/description/]: 中位数；降纬
+()
 
 ## array
 [shortest word distance](https://leetcode.com/problems/shortest-word-distance/description/): 判断两个东西的距离，使用rolling的形式来判断。
